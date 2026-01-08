@@ -23,9 +23,4 @@ The dataset includes building-level subscriber and campaign data from 2016–201
 - Business insights: high-risk segments, predicted churn probabilities, ROI recommendations
 
 
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
-pip install -r requirements.txt
-4. Run notebooks in order:
-01_data_cleaning → 02_feature_engineering → 03_eda → 04_modeling → 05_evaluation_and_insights
+
