@@ -22,34 +22,7 @@ The dataset includes building-level subscriber and campaign data from 2016–201
 - Explainability: SHAP / feature importance  
 - Business insights: high-risk segments, predicted churn probabilities, ROI recommendations
 
----
 
-## **Results & Insights**
-
-- **Top churn drivers:** Income, competitor presence, building campaign lift  
-- **High-risk segments:** Buildings/customers with >50% predicted churn probability  
-- **Actionable recommendations:** Targeted retention campaigns for high-risk customers  
-- **Potential revenue retention:** Estimated $X (calculated from dataset)
-
----
-
-## **Repository Structure**
-
-data/ → Raw and processed datasets
-notebooks/ → Data cleaning, feature engineering, modeling, evaluation
-src/ → Scripts for data processing and modeling
-dashboards/ → Power BI dashboard & screenshots
-requirements.txt
-README.md
-
-
----
-
-## **Getting Started**
-
-1. Clone the repo:  
-```bash
-git clone https://github.com/juhiie/bell-customer-churn-prediction.git
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
